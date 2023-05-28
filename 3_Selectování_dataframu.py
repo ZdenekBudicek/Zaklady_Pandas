@@ -10,7 +10,7 @@ df = pd.DataFrame(1, index=["i", "j", "a", "b"], columns=["a", "b", 1, 2])
 print(df.iloc[:3, :1])  # vyfiltruje první 3 řádky a druhá hodnota 1 sloupec
 print(df.iloc[-2:-1, 1:3])  # Lze vypisovat i od zadu
 
-df_real = pd.read_csv("pandas_tutorial_sk-main/pandas_tutorial_sk-main/dataset/train.csv")
+df_real = pd.read_csv("dataset/train.csv")
 print(df_real.head())
 print(
     df_real.loc[~((df_real.SalePrice > 175000) & (df_real.SalePrice < 223500)), ["SalePrice", "YrSold"]])  # První zápis

@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("pandas_tutorial_sk-main/pandas_tutorial_sk-main/dataset/train.csv")
+df = pd.read_csv("dataset/train.csv")
 print(df.empty)  # Kontroluje jestli je data frame prázdny, True/False
 print(df.ndim)  # řekne nám kolik má dimenzí, může jich mít víc, tento je 2, čili řádek a sloupec
 print(df.size)  # Počet buněk

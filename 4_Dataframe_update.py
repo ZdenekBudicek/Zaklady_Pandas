@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("pandas_tutorial_sk-main/pandas_tutorial_sk-main/dataset/train.csv")
+df = pd.read_csv("dataset/train.csv")
 df.MSZoning = 1  # Přepíše všechny hodnoty ve sloupci MSZoning na 1
 print(df)
 df.MSZoning = pd.Series(list(range(0, 1460)))  # Přepíše hodnoty od nuly až po tisíc ve sloupci MSZoning

@@ -1,7 +1,7 @@
 import pandas as pd
 
-df_train = pd.read_csv("pandas_tutorial_sk-main/pandas_tutorial_sk-main/dataset/train.csv")
-df_test = pd.read_csv("pandas_tutorial_sk-main/pandas_tutorial_sk-main/dataset/test.csv",
+df_train = pd.read_csv("dataset/train.csv")
+df_test = pd.read_csv("dataset/test.csv",
                       index_col="Id",  # index_col nastaví co je index(jaký sloupec)
                       sep=",",  # sep podle čeho má dělit ty data, v tomto případě podle čárky
                       # skiprows=3 # jaký řádek má vynechat, nesmí být zaplé index_col aby toto šlo, takže zakomentovat
