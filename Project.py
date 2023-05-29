@@ -11,9 +11,6 @@ import numpy as np
 # 2. Some product Names start with a blank space before the text
 # 3. Incorrect data types in the Price column (e.g., non-numeric values)
 # 4. Duplicate Product ID entries (indicate both cells)
-#
-# Please document your findings in the email, mentioning the cell numbers
-# (make sure your database starts with “Product ID” in A1 cell) for the points above.
 
 def review_dataset(filename):
     df = pd.read_csv(filename)
